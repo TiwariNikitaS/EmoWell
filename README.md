@@ -44,6 +44,9 @@ EmoWell is an AI Powered application designed to cater to the emotional well-bei
 - `GET /Emotion/HappyPieChart`: Retrieve the top 10 happiness contributers.
 - `GET /Emotion/SadPieChart`: Retrieve the top 10 unpleasant influences.
 
+## Link for the Demo Video
+https://drive.google.com/file/d/1oxech97DExAVi9s-EuLyJpf7AJFHQOc9/view?usp=sharing
+
 ## Future Enhancements
 
 - User authentication and personalized profiles.
