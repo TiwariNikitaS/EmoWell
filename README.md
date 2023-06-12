@@ -27,7 +27,7 @@ EmoWell is an AI Powered application designed to cater to the emotional well-bei
 
 1. Clone the repository:
 2. Frontend:
-- Open the `index.html` file in a web browser.
+- Open the `input.html` file in a web browser.
 - Change the constant `api_base_url` in `app.js` and `dashboard.js` if the API application port is different 
 
 3. Backend:
@@ -47,7 +47,7 @@ EmoWell is an AI Powered application designed to cater to the emotional well-bei
 ## Future Enhancements
 
 - User authentication and personalized profiles.
-- Data analysis and insights based on historical emotions.
+- Data analysis and insights.
 
 ## Contributors
 
