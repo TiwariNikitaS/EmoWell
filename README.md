@@ -1,6 +1,6 @@
 # EmoWell
 
-EmoWell is an AI Powered application designed to cater to the emotional well-being of individuals by allowing them to track their daily emotions, happy incidents, and sad incidents. The app provides a dashboard with interactive charts to visualize and analyze the emotional data.
+EmoWell is an AI Powered application designed to cater to the emotional well-being of individuals by allowing them to track their daily emotions, happy incidents, and sad incidents. The app analyses the data with AI and identifiess the key happiness and unpleasant experiences contributers and shows it in a dashboard with interactive charts.
 
 ## Features
 
@@ -17,21 +17,23 @@ EmoWell is an AI Powered application designed to cater to the emotional well-bei
 - Frontend:
   - HTML, CSS, JavaScript
   - Chart.js library for interactive charts
+  - Bootstrap for styling
 
 - Backend:
   - Spring Boot framework with Java
   - MySQL database for data storage
   - Spring Data JPA for object-relational mapping
+  - OpenAI API for data analysis
 
 ## Setup and Installation
 
 1. Clone the repository:
 2. Frontend:
-- Open the `input.html` file in a web browser.
-- Change the constant `api_base_url` in `app.js` and `dashboard.js` if the API application port is different 
+- Open the `UI\input.html` file in a web browser.
+- Change the constant `api_base_url` in `app.js` and `dashboard.js` if the API application port is different
 
 3. Backend:
-- Import the backend project into an IDE (e.g., IntelliJ, Eclipse, STS).
+- Import the `emoWell_api` project into an IDE (e.g., IntelliJ, Eclipse, STS).
 - Set up the MySQL database and configure the database connection in `application.properties`.
 - Set the api-key (api.key) for ChatGPT api acess in `application.properties`
 - Run the Spring Boot application.
@@ -52,7 +54,7 @@ https://drive.google.com/file/d/1oxech97DExAVi9s-EuLyJpf7AJFHQOc9/view?usp=shari
 - User authentication and personalized profiles.
 - Data analysis and insights.
 
-## Contributors
+## Contributor
 
 - Nikita Tiwari (https://github.com/TiwariNikitaS)
 
